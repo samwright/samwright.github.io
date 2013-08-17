@@ -28,36 +28,88 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="welcome-to-sam-wrights-webpage" class="anchor" href="#welcome-to-sam-wrights-webpage"><span class="octicon octicon-link"></span></a>Welcome to Sam Wright's webpage</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>I am currently studying for a MSc in computer science from Birkbeck College of the University of London, and have a masters in physics from the University of Oxford.  </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>I am interested in machine learning, computer vision, and human computer interaction (specifically hand gesture recognition), and enjoy using OODP principles (ie. software design patterns, SOLID, GRASP) and experimenting with functional paradigms.  Most recently I've been programming in Java and a little in Scala, and have previously used Python and a some C++.</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="recent-big-projects" class="anchor" href="#recent-big-projects"><span class="octicon octicon-link"></span></a>Recent big projects</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h4>
+<a name="hand-gesture-recognition-system-2013-msc-project" class="anchor" href="#hand-gesture-recognition-system-2013-msc-project"><span class="octicon octicon-link"></span></a>Hand gesture recognition system (2013 MSc project)</h4>
+
+<h6>
+<a name="source-code---work-in-progress--" class="anchor" href="#source-code---work-in-progress--"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/gesture-framework">source code</a> - work in progress -</h6>
+
+<p>This project has two main aims - first, to create an extendable workflow editor/engine to allow the user to construct and configure a hand gesture recognition workflow from constituent algorithms (eg. image transformations, hand pose estimation, and hand detection and tracking) with inbuilt testing features.</p>
+
+<p>Secondly, once a successful recognition workflow has been created, the user can configure actions to perform when each gesture is recognised (eg. play music, change volume, etc...).</p>
+
+<p>As an aside - the workflow engine I've created allows for <a href="http://en.wikipedia.org/wiki/Transduction_(machine_learning&amp;#041;">transductive</a> machine learning, whereby features selected from the input images are used as markers by which optimisations to the workflow can be configured.</p>
+
+<h4>
+<a name="dominoes-ai-player-2013-coursework-project" class="anchor" href="#dominoes-ai-player-2013-coursework-project"><span class="octicon octicon-link"></span></a>Dominoes AI player (2013 coursework project)</h4>
+
+<h6>
+<a name="source-code" class="anchor" href="#source-code"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/DominosPlayground">source code</a>
+</h6>
+
+<p>I created an AI player for the game of dominoes as part of a team project as a coursework.  It works by creating a lazily-initialised decision tree of future moves (both of the AI player and its opponent) where each game state has a score associated with it based on the dominoes in both the player's and the opponent's hands.  I then implemented a minmax algorithm to find the best possible final game state, and therefore the best possible move.  In tests against a short-sighted AI player (which places its highest-valued placeable domino without considering future moves) it won about 82% of the time.</p>
+
+<p>The completed project with all of the team's code can be found <a href="https://github.com/samwright/DominoesGame">here</a>.</p>
+
+<h4>
+<a name="spectroscopy-analysis-system-2012-mphys-project" class="anchor" href="#spectroscopy-analysis-system-2012-mphys-project"><span class="octicon octicon-link"></span></a>Spectroscopy analysis system (2012 MPhys project)</h4>
+
+<p>I created a software package to be used in an experiment to be included in the Oxford physics undergraduate teaching course which would investigate semiconductor band gaps, phonons and excitons, specifically by looking at their temperature-dependent behaviour.</p>
+
+<p>Along with some calibration utilities, the main part of the software package interfaces with a spectrascopic sensor and a temperature sensor which allows for spectra to be automatically recorded at specific temperatures.  The user can then manipulate spectra in realtime using symbolic algebra to monitor properties such as absorbance and reflectivity.</p>
+
+<h4>
+<a name="sgc-project-2011-vacation-project" class="anchor" href="#sgc-project-2011-vacation-project"><span class="octicon octicon-link"></span></a>SGC project (2011 vacation project)</h4>
+
+<p>The mission of the Structural Genomics Consortium (SGC) is to resolve the structures of interesting proteins using X-ray crystallography. The process to do this involves a myriad of programs and choices of which it difficult to gain an informed overview. I started development of an overarching workflow-based management program to add transparency to the process and allow for further computational improvement of it.</p>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a name="recent-smaller-projects" class="anchor" href="#recent-smaller-projects"><span class="octicon octicon-link"></span></a>Recent smaller projects</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h4>
+<a name="experimenting-with-scala" class="anchor" href="#experimenting-with-scala"><span class="octicon octicon-link"></span></a>Experimenting with Scala</h4>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<h6>
+<a name="source-code-1" class="anchor" href="#source-code-1"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/Scala_Playground">source code</a>
+</h6>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>I went through most of the documentation on the <a href="http://www.scala-lang.org/documentation/">scala website</a> and wrote example code to demonstrate Scala's functionality.</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h4>
+<a name="turing-machine" class="anchor" href="#turing-machine"><span class="octicon octicon-link"></span></a>Turing Machine</h4>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<h6>
+<a name="source-code-2" class="anchor" href="#source-code-2"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/TuringMachine">source code</a>
+</h6>
+
+<p>For fun, I implemented a Turing machine along with exemplar Turing programs, including an automated Turing machine, and a simple Swing-based GUI.</p>
+
+<h4>
+<a name="artificial-neural-network" class="anchor" href="#artificial-neural-network"><span class="octicon octicon-link"></span></a>Artificial Neural Network</h4>
+
+<h6>
+<a name="source-code-3" class="anchor" href="#source-code-3"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/NeuralNet">source code</a>
+</h6>
+
+<p>To help understand machine learning I implemented an ANN and the backpropogation algorithm, and tested that it could learn all 2-input, 1-output boolean functions (eg. and, or, xor, etc...).</p>
+
+<h4>
+<a name="contact-manager" class="anchor" href="#contact-manager"><span class="octicon octicon-link"></span></a>Contact Manager</h4>
+
+<h6>
+<a name="source-code-4" class="anchor" href="#source-code-4"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/ContactManager">source code</a>
+</h6>
+
+<p>This was a coursework project to implement a supplied interface for a contact manager (ie. address book).  It was quite a simple project which was intended to demonstrate my ability to write POJO and implement TDD.</p>
       </section>
     </div>
 
