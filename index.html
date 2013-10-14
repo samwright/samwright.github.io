@@ -32,9 +32,9 @@
           <h3>
 <a name="bio" class="anchor" href="#bio"><span class="octicon octicon-link"></span></a>Bio</h3>
 
-<p>I am currently studying for a MSc in computer science from Birkbeck College of the University of London, and have a masters in physics from the University of Oxford.  </p>
+<p>I have just completed an MSc in computer science from Birkbeck College of the University of London, and have a masters in physics from the University of Oxford.  </p>
 
-<p>I am interested in machine learning, computer vision, and human computer interaction (specifically hand gesture recognition), and enjoy using OODP principles (ie. software design patterns, SOLID, GRASP) and experimenting with functional paradigms.  Most recently I've been programming in Java and a little in Scala, and have previously used Python and dabbled in C++.</p>
+<p>I am interested in machine learning, computer vision, workflow management systems, and human computer interaction (specifically hand gesture recognition), and enjoy using OODP principles (ie. software design patterns, SOLID, GRASP) and experimenting with functional paradigms.  Most recently I've been programming in Java and a little in Scala, and have previously used Python and dabbled in C++.</p>
 
 <h3>
 <a name="recent-big-projects" class="anchor" href="#recent-big-projects"><span class="octicon octicon-link"></span></a>Recent big projects</h3>
@@ -43,19 +43,18 @@
 <a name="hand-gesture-recognition-system-2013-msc-project" class="anchor" href="#hand-gesture-recognition-system-2013-msc-project"><span class="octicon octicon-link"></span></a>Hand gesture recognition system (2013 MSc project)</h4>
 
 <h6>
-<a name="source-code---work-in-progress--" class="anchor" href="#source-code---work-in-progress--"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/gesture-framework">source code</a> - work in progress -</h6>
+<a name="source-code" class="anchor" href="#source-code"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/gesture-framework">source code</a>
+</h6>
 
-<p>This project has two main aims - first, to create an extensible workflow editor/engine to allow the user to construct and configure a hand gesture recognition workflow from constituent algorithms (eg. image transformations, hand pose estimation, and hand detection and tracking) with inbuilt testing features.</p>
+<p>This project had two main aims - first, to create an extensible workflow editor/engine to allow the user to construct and configure a hand gesture recognition workflow from constituent algorithms (eg. image transformations, hand pose estimation, and hand detection and tracking) with inbuilt testing features. Machine learning was built into the workflow engine to allow for choices to be made (for example, which of a variety of subworkflows to use) based on the performance of similar test data, allowing for <a href="http://en.wikipedia.org/wiki/Transduction_(machine_learning)">transductive learning</a>.</p>
 
-<p>Secondly, once a successful recognition workflow has been created, the user can configure actions to perform when each gesture is recognised (eg. play music, change volume, etc...).</p>
-
-<p>As an aside - the workflow engine I've created allows for <a href="http://en.wikipedia.org/wiki/Transduction_(machine_learning)">transductive</a> machine learning, whereby features selected from the input images are used as markers by which optimisations to the workflow can be configured.</p>
+<p>Secondly, once a successful recognition workflow has been created, the user can configure keyboard events to be triggered when each gesture is recognised.</p>
 
 <h4>
 <a name="dominoes-ai-player-2013-coursework-project" class="anchor" href="#dominoes-ai-player-2013-coursework-project"><span class="octicon octicon-link"></span></a>Dominoes AI player (2013 coursework project)</h4>
 
 <h6>
-<a name="source-code" class="anchor" href="#source-code"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/DominosPlayground">source code</a>
+<a name="source-code-1" class="anchor" href="#source-code-1"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/DominosPlayground">source code</a>
 </h6>
 
 <p>I created an AI player for the game of dominoes as part of a team project as a coursework.  It works by creating a lazily-initialised decision tree of future moves (both of the AI player and its opponent) where each game state has a score associated with it based on the dominoes in both the player's and the opponent's hands.  I then implemented a minmax algorithm to find the best possible final game state, and therefore the best possible move.  In tests against a short-sighted AI player (which places its highest-valued placeable domino without considering future moves) it won about 82% of the time.</p>
@@ -81,7 +80,7 @@
 <a name="experimenting-with-scala" class="anchor" href="#experimenting-with-scala"><span class="octicon octicon-link"></span></a>Experimenting with Scala</h4>
 
 <h6>
-<a name="source-code-1" class="anchor" href="#source-code-1"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/Scala_Playground">source code</a>
+<a name="source-code-2" class="anchor" href="#source-code-2"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/Scala_Playground">source code</a>
 </h6>
 
 <p>I went through most of the documentation on the <a href="http://www.scala-lang.org/documentation/">scala website</a> and wrote example code to demonstrate Scala's functionality.</p>
@@ -90,7 +89,7 @@
 <a name="turing-machine" class="anchor" href="#turing-machine"><span class="octicon octicon-link"></span></a>Turing Machine</h4>
 
 <h6>
-<a name="source-code-2" class="anchor" href="#source-code-2"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/TuringMachine">source code</a>
+<a name="source-code-3" class="anchor" href="#source-code-3"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/TuringMachine">source code</a>
 </h6>
 
 <p>For fun, I implemented a Turing machine along with exemplar Turing programs, including an automated Turing machine, and a simple Swing-based GUI.</p>
@@ -99,16 +98,43 @@
 <a name="artificial-neural-network" class="anchor" href="#artificial-neural-network"><span class="octicon octicon-link"></span></a>Artificial Neural Network</h4>
 
 <h6>
-<a name="source-code-3" class="anchor" href="#source-code-3"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/NeuralNet">source code</a>
+<a name="source-code-4" class="anchor" href="#source-code-4"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/NeuralNet">source code</a>
 </h6>
 
 <p>To help understand machine learning I implemented an ANN and the backpropogation algorithm, and tested that it could learn all 2-input, 1-output boolean functions (eg. and, or, xor, etc...).</p>
 
 <h4>
+<a name="experimenting-with-hadoop" class="anchor" href="#experimenting-with-hadoop"><span class="octicon octicon-link"></span></a>Experimenting with Hadoop</h4>
+
+<h6>
+<a name="source-code-5" class="anchor" href="#source-code-5"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/HadoopPlayground">source code</a>
+</h6>
+
+<p>I followed a tutorial and implemented some simple MapReduce algorithms, which I tested using MRUnit and also on a local Hadoop server.</p>
+
+<h4>
+<a name="experimenting-with-hibernate" class="anchor" href="#experimenting-with-hibernate"><span class="octicon octicon-link"></span></a>Experimenting with Hibernate</h4>
+
+<h6>
+<a name="source-code-6" class="anchor" href="#source-code-6"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/HibernatePlayground">source code</a>
+</h6>
+
+<p>I set up Hibernate with an HSQLDB database and an annotation-defined schema filled with test data, and performed some simple queries.</p>
+
+<h4>
+<a name="working-days-calculator" class="anchor" href="#working-days-calculator"><span class="octicon octicon-link"></span></a>Working Days Calculator</h4>
+
+<h6>
+<a name="source-code-7" class="anchor" href="#source-code-7"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/WorkingDaysCalculator">source code</a>
+</h6>
+
+<p>Small tool that calculates when someone will have worked a specified number of days (excluding bank holidays and weekends) starting from a specified date, taking into account bank holidays. Uses Joda-Time and JollyDay.</p>
+
+<h4>
 <a name="contact-manager" class="anchor" href="#contact-manager"><span class="octicon octicon-link"></span></a>Contact Manager</h4>
 
 <h6>
-<a name="source-code-4" class="anchor" href="#source-code-4"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/ContactManager">source code</a>
+<a name="source-code-8" class="anchor" href="#source-code-8"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/ContactManager">source code</a>
 </h6>
 
 <p>This was a coursework project to implement a supplied interface for a contact manager (ie. address book).  It was quite a simple project which was intended to demonstrate my ability to write POJO and implement TDD.</p>
@@ -117,7 +143,7 @@
 <a name="design-patterns" class="anchor" href="#design-patterns"><span class="octicon octicon-link"></span></a>Design Patterns</h4>
 
 <h6>
-<a name="source-code-5" class="anchor" href="#source-code-5"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/software-design-patterns">source code</a>
+<a name="source-code-9" class="anchor" href="#source-code-9"><span class="octicon octicon-link"></span></a><a href="https://github.com/samwright/software-design-patterns">source code</a>
 </h6>
 
 <p>I implemented some of the software design patterns to familiarise myself with the patterns and to play with C++.</p>
